@@ -29,8 +29,6 @@ class Miner:
                 if validations.validate_block(blockchain.pending_blocks[0].to_dict(), previous_block):
                     blockchain.add_mined_block_to_chain()
                     blockchain.pending_blocks = []
-                else:
-                    print('INVÁLIDO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
             else:
                 if validations.validate_block(blockchain.pending_blocks[0].to_dict()):
                     blockchain.add_mined_block_to_chain()
