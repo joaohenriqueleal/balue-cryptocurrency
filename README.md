@@ -50,7 +50,7 @@ Peers automatically synchronize with the network to stay updated.
 ```bash
 # Clone the repository
 git clone https://github.com/joaohenriqueleal/balue-cryptocurrency
-cd balue-cryptocurrency/balue
+cd balue-cryptocurrency/src
 
 # Install dependencies
 pip install -r requirements.txt
@@ -59,4 +59,3 @@ pip install -r requirements.txt
 clear
 python3 InitCli.py
 ```
-
