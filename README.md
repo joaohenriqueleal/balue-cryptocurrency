@@ -59,3 +59,5 @@ pip install -r requirements.txt
 clear
 python3 InitCli.py
 ```
+
+You can download the precompiled executables from the Releases page of this repository.
