@@ -34,7 +34,7 @@ WALLETS_PATH: str = 'balue/wallets'
 # Protocols configs.
 PEERS_PATH: str = 'balue/peers/peers.json'
 SECOND_TIMEOUT: int = 3
-MAX_THREADS: int = 40
+MAX_THREADS: int = 5
 TIMEOUT: int = 5
 PORT: int = 8888
 
